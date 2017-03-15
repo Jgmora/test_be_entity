@@ -1,0 +1,40 @@
+{
+	"id": "14e0b7ec-2912-ed69-1610-f34a7597949a",
+	"name": "be_entity",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "89062fbd-e9ad-f877-a200-0b066f31df6d",
+			"name": "be_entity",
+			"description": "",
+			"order": [
+				"7712d612-922f-945f-d96f-859c2ef66fcb"
+			],
+			"owner": "1468404"
+		}
+	],
+	"timestamp": 1489538617380,
+	"owner": "1468404",
+	"public": false,
+	"requests": [
+		{
+			"id": "7712d612-922f-945f-d96f-859c2ef66fcb",
+			"headers": "user-data: eyJ1c2VySWQiOjEsInByb2ZpbGVJZCI6IjZjZTBhOGYwLTlhZjAtMTFlNi1hOGM2LTkxYmZiM2VjNTU5ZCIsImVudGl0eUlkIjoiNmNkYTY3NjAtOWFmMC0xMWU2LWE4YzYtOTFiZmIzZWM1NTlkIiwicm9sZXMiOnsiaW52ZXN0b3IiOlsiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiXSwic2VsbGVyIjpbImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIiwiY3JlYXRlIiwicmVhZCIsInVwZGF0ZSIsImNyZWF0ZSIsInJlYWQiLCJ1cGRhdGUiLCJjcmVhdGUiLCJyZWFkIiwidXBkYXRlIl19fQ==\n",
+			"url": "dev.mesfix.com:3065/entities",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489538755610,
+			"name": "dev.mesfix.com:3065/entities",
+			"description": "",
+			"collectionId": "14e0b7ec-2912-ed69-1610-f34a7597949a",
+			"responses": []
+		}
+	]
+}
